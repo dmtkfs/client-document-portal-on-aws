@@ -1,7 +1,7 @@
 # Client Document Portal on AWS
 
-> A secure cloud-native file sharing backend designed for client-facing teams using S3, IAM, CloudWatch and CloudTrail. <br>
-
+> A secure cloud-native file sharing backend designed for client-facing teams using S3, IAM, CloudWatch and CloudTrail.
+<br>
 ## 1. Overview
 
 This project describes the infrastructure design for a secure and scalable document-sharing backend using AWS.
