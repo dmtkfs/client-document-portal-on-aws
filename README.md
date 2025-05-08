@@ -107,11 +107,11 @@ Monitoring and logging are critical for reliability and security.
 
 The modular design easily allows enhancements as requirements evolve:
 
-* **CloudFront Integration** – Faster global file access with added security
-* **File Scanning via Lambda** – Antivirus or file validation upon uploads
-* **Lifecycle Management** – Automatic archival or deletion of older files
-* **Authentication via Cognito** – User login and identity management
-* **Infrastructure as Code** – Reusable deployment with Terraform or CloudFormation
+* **CloudFront Integration:** Faster global file access with added security
+* **File Scanning via Lambda:** Antivirus or file validation upon uploads
+* **Lifecycle Management:** Automatic archival or deletion of older files
+* **Authentication via Cognito:** User login and identity management
+* **Infrastructure as Code:** Reusable deployment with Terraform or CloudFormation
 
 ## 8. Learning Goals
 
