@@ -2,8 +2,6 @@
 
 > A secure cloud-native file sharing backend designed for client-facing teams using S3, IAM, CloudWatch and CloudTrail.
 
----
-
 ## 1. Overview
 
 This project describes the infrastructure design for a secure and scalable document-sharing backend using AWS.
@@ -13,8 +11,6 @@ It suits small-to-medium businesses, such as accounting firms, consultancies, or
 The focus is on **fine-grained access control**, **automated monitoring** and **system resilience** using AWS core services: **S3**, **IAM**, **CloudTrail** and **CloudWatch**. Additional services for extended functionality are optional.
 
 This project does not include application code or frontend development. It demonstrates an infrastructure-only approach designed to scale according to evolving business needs.
-
----
 
 ## 2. Why Not Just Use Google Drive?
 
