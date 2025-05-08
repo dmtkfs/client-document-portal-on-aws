@@ -136,7 +136,7 @@ s3://client-docs-portal/
 │   ├── client456/
 │   └── client789/
 ```
-<br>
+
 ### Architecture Diagram
 
 *\[diagram placeholder]*
