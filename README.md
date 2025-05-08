@@ -52,6 +52,7 @@ This project focuses solely on cloud infrastructure design. The following diagra
 | *Amazon SNS (optional)*        | *Sends notifications about file uploads*                      |
 | *Amazon Cognito (optional)*    | *Supports user authentication if adding a frontend*           |
 | *Amazon CloudFront (optional)* | *Offers faster file delivery and enhanced security*           |
+
 <br><br>
 ## 5. Security and Permissions
 
@@ -81,7 +82,7 @@ Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs 
   ]
 }
 ```
-<br><br>
+<br>
 ## 6. Monitoring and Alerts
 
 Monitoring and logging are critical for reliability and security.
