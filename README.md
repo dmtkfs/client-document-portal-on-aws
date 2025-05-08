@@ -10,7 +10,7 @@ It suits small-to-medium businesses, such as accounting firms, consultancies, or
 
 The focus is on **fine-grained access control**, **automated monitoring** and **system resilience** using AWS core services: **S3**, **IAM**, **CloudTrail** and **CloudWatch**. Additional services for extended functionality are optional.
 
-This project does not include application code or frontend development. It demonstrates an infrastructure-only approach designed to scale according to evolving business needs.  
+This project does not include application code or frontend development. It demonstrates an infrastructure-only approach designed to scale according to evolving business needs.<br><br>  
 
 
 ## 2. Why Not Just Use Google Drive?
