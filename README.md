@@ -12,6 +12,7 @@ The focus is on **fine-grained access control**, **automated monitoring** and **
 
 This project does not include application code or frontend development. It demonstrates an infrastructure-only approach designed to scale according to evolving business needs.
 
+
 ## 2. Why Not Just Use Google Drive?
 
 While Google Drive and Dropbox are sufficient for basic document sharing, growing businesses with sensitive or regulated information face limitations. Requirements evolve to include:
