@@ -55,10 +55,10 @@ This project focuses solely on cloud infrastructure design. The following diagra
 | S3 Bucket Policies             | Controls file-level access using path-based rules           |
 | AWS CloudTrail                 | Records detailed API call history                           |
 | Amazon CloudWatch              | Provides system monitoring, alerts and metrics tracking    |
-| *AWS Lambda (optional)*        | Enables serverless workflows (file scanning, tagging, etc.) |
-| *Amazon SNS (optional)*        | Sends notifications about file uploads                      |
-| *Amazon Cognito (optional)*    | Supports user authentication if adding a frontend           |
-| *Amazon CloudFront (optional)* | Offers faster file delivery and enhanced security           |
+| *AWS Lambda (optional)*        | *Enables serverless workflows (file scanning, tagging, etc.)* |
+| *Amazon SNS (optional)*        | *Sends notifications about file uploads*                      |
+| *Amazon Cognito (optional)*    | *Supports user authentication if adding a frontend*           |
+| *Amazon CloudFront (optional)* | *Offers faster file delivery and enhanced security*           |
 
 ---
 
