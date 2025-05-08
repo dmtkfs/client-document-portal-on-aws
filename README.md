@@ -23,7 +23,7 @@ While Google Drive and Dropbox are sufficient for basic document sharing, growin
 * **Compliance capabilities** such as encryption, data residency, or retention policies
 * **Easy scalability** for numerous clients and documents without manual management
 
-AWS infrastructure addresses these limitations by providing advanced security, flexible automation and comprehensive monitoring.
+AWS infrastructure addresses these limitations by providing advanced security, flexible automation and comprehensive monitoring.<br><br>
 
 ## 3. Architecture Diagram
 
@@ -37,7 +37,7 @@ This project focuses solely on cloud infrastructure design. The following diagra
 * **IAM Roles** – Defines permissions for staff, clients and administrators
 * **CloudWatch** – Monitors activities and generates anomaly alerts
 * **CloudTrail** – Records API calls for audit and compliance purposes
-* *(Optional)* Lambda, SNS, Cognito, CloudFront for added functionality such as automation, notifications, authentication and improved performance
+* *(Optional)* Lambda, SNS, Cognito, CloudFront for added functionality such as automation, notifications, authentication and improved performance<br><br>
 
 ## 4. AWS Components
 
@@ -52,7 +52,7 @@ This project focuses solely on cloud infrastructure design. The following diagra
 | *Amazon SNS (optional)*        | *Sends notifications about file uploads*                      |
 | *Amazon Cognito (optional)*    | *Supports user authentication if adding a frontend*           |
 | *Amazon CloudFront (optional)* | *Offers faster file delivery and enhanced security*           |
-
+<br><br>
 ## 5. Security and Permissions
 
 Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs for temporary file access.
@@ -81,7 +81,7 @@ Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs 
   ]
 }
 ```
-
+<br><br>
 ## 6. Monitoring and Alerts
 
 Monitoring and logging are critical for reliability and security.
@@ -102,7 +102,7 @@ Monitoring and logging are critical for reliability and security.
 * Combining S3 Event Notifications with Lambda and SNS can:
 
   * Alert teams when files are uploaded
-  * Enforce naming conventions or automatic file tagging
+  * Enforce naming conventions or automatic file tagging<br><br>
 
 ## 7. Optional Enhancements
 
@@ -112,7 +112,7 @@ The modular design easily allows enhancements as requirements evolve:
 * **File Scanning via Lambda:** Antivirus or file validation upon uploads
 * **Lifecycle Management:** Automatic archival or deletion of older files
 * **Authentication via Cognito:** User login and identity management
-* **Infrastructure as Code:** Reusable deployment with Terraform or CloudFormation
+* **Infrastructure as Code:** Reusable deployment with Terraform or CloudFormation<br><br>
 
 ## 8. Learning Goals
 
@@ -122,7 +122,7 @@ This project helps build practical AWS skills by:
 * Implementing granular file access control in S3
 * Utilizing CloudWatch and CloudTrail for monitoring and audit logging
 * Making informed decisions about cloud-native solutions versus commercial software
-* Clearly documenting and justifying infrastructure design choices
+* Clearly documenting and justifying infrastructure design choices<br><br>
 
 ## 9. Demonstration
 
@@ -135,11 +135,11 @@ s3://client-docs-portal/
 │   ├── client456/
 │   └── client789/
 ```
-
+<br><br>
 ### Architecture Diagram
 
 *\[diagram placeholder]*
-
+<br><br>
 ## 10. Resources
 
 ### AWS Documentation
