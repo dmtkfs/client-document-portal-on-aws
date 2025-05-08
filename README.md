@@ -24,8 +24,6 @@ While Google Drive and Dropbox are sufficient for basic document sharing, growin
 
 AWS infrastructure addresses these limitations by providing advanced security, flexible automation and comprehensive monitoring.
 
----
-
 ## 3. Architecture Diagram
 
 This project focuses solely on cloud infrastructure design. The following diagram outlines how AWS components integrate for secure file sharing between teams and clients.
@@ -40,8 +38,6 @@ This project focuses solely on cloud infrastructure design. The following diagra
 * **CloudTrail** – Records API calls for audit and compliance purposes
 * *(Optional)* Lambda, SNS, Cognito, CloudFront for added functionality such as automation, notifications, authentication and improved performance
 
----
-
 ## 4. AWS Components
 
 | Service                        | Purpose                                                     |
@@ -55,8 +51,6 @@ This project focuses solely on cloud infrastructure design. The following diagra
 | *Amazon SNS (optional)*        | *Sends notifications about file uploads*                      |
 | *Amazon Cognito (optional)*    | *Supports user authentication if adding a frontend*           |
 | *Amazon CloudFront (optional)* | *Offers faster file delivery and enhanced security*           |
-
----
 
 ## 5. Security and Permissions
 
@@ -87,8 +81,6 @@ Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs 
 }
 ```
 
----
-
 ## 6. Monitoring and Alerts
 
 Monitoring and logging are critical for reliability and security.
@@ -111,8 +103,6 @@ Monitoring and logging are critical for reliability and security.
   * Alert teams when files are uploaded
   * Enforce naming conventions or automatic file tagging
 
----
-
 ## 7. Optional Enhancements
 
 The modular design easily allows enhancements as requirements evolve:
@@ -123,8 +113,6 @@ The modular design easily allows enhancements as requirements evolve:
 * **Authentication via Cognito** – User login and identity management
 * **Infrastructure as Code** – Reusable deployment with Terraform or CloudFormation
 
----
-
 ## 8. Learning Goals
 
 This project helps build practical AWS skills by:
@@ -134,8 +122,6 @@ This project helps build practical AWS skills by:
 * Utilizing CloudWatch and CloudTrail for monitoring and audit logging
 * Making informed decisions about cloud-native solutions versus commercial software
 * Clearly documenting and justifying infrastructure design choices
-
----
 
 ## 9. Demonstration
 
@@ -152,8 +138,6 @@ s3://client-docs-portal/
 ### Architecture Diagram
 
 *\[diagram placeholder]*
-
----
 
 ## 10. Resources
 
