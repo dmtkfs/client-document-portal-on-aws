@@ -87,6 +87,7 @@ Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs 
 }
 ```
 <br>
+
 ## 6. Monitoring and Alerts
 
 Monitoring and logging are critical for reliability and security.
