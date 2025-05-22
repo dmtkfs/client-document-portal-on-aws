@@ -54,8 +54,8 @@ _Architecture for the client document portal on AWS using S3, IAM, CloudWatch, a
 | *Amazon SNS (optional)*        | *Sends notifications about file uploads*                      |
 | *Amazon Cognito (optional)*    | *Supports user authentication if adding a frontend*           |
 | *Amazon CloudFront (optional)* | *Offers faster file delivery and enhanced security*           |
-
 <br>
+
 ## 5. Security and Permissions
 
 Security relies on IAM roles, S3 bucket policies and optionally pre-signed URLs for temporary file access.
