@@ -29,9 +29,11 @@ AWS infrastructure addresses these limitations by providing advanced security, f
 
 This project focuses solely on cloud infrastructure design. The following diagram outlines how AWS components integrate for secure file sharing between teams and clients.
 
-![Architecture Diagram](assets/aws-architecture.png)
-_Architecture for the client document portal on AWS using S3, IAM, CloudWatch, and CloudTrail._
-
+<p align="center">
+  <img src="assets/aws-architecture.png" alt="Diagram">
+  <br>
+  <em>Architecture for the client document portal on AWS using S3, IAM, CloudWatch, and CloudTrail.</em>
+</p>
 
 ### Components Overview
 
